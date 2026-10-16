@@ -1,0 +1,10 @@
+{
+  "name": "birthday-card",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Birthday dinner invite",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "start": "npm run dev"
+  }
+}
