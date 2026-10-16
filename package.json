@@ -5,6 +5,7 @@
   "description": "Birthday dinner invite",
   "scripts": {
     "dev": "python3 -m http.server 5173",
+    "build": "node -e \"const f=require('fs');f.rmSync('dist',{recursive:true,force:true});f.mkdirSync('dist');f.copyFileSync('index.html','dist/index.html')\"",
     "start": "npm run dev"
   }
 }
